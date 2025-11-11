@@ -8,7 +8,7 @@ All the pages are stored as markdown(.md) files in the top-level directory. Jeky
 
 You can serve a local version by running `jekyll serve`.
 
-The main technical complexity lies in the interactive sql exercises. These are implemented as a custom html tag in `/scripts/main.js`. Firefox doesn't support custom html elements by default, so we pulled in the `custom-elements.min.js` library from unpkg. (See `_layouts/default.html`.)
+The main technical complexity lies in the interactive sql exercises. These are implemented as a custom html tag in `/scripts/main.js`. Firefox doesn't support custom html elements by default, so we pulled in the `custom-elements.min.js` library from unpkg. (See `_layouts/sql-default.html`.)
 
 ## Contributing
 To contribute, either email me directly at zichongkao@gmail.com, or submit a pull request by following these steps:

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: sql-default
 title: Select Star SQL
 ---
 <div class="index_content">
