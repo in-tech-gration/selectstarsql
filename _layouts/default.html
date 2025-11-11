@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto:700,500,300|Roboto+Condensed">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/@webcomponents/custom-elements@1.2.0/custom-elements.min.js"></script>
+    <!-- TODO: Replace with local file:
+      <script src="scripts/custom-elements.min.js"></script> 
+    -->
     <script src="scripts/codemirror.js"></script>
     <script src="scripts/codemirrorsql.js"></script>
     <script src="scripts/autorefresh.js"></script>
@@ -16,14 +19,17 @@
     <script>
       window.onload = () => loadData('{{ page.dbFile }}');
     </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46601509-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-46601509-2');
-    </script>
+    <!--
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46601509-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-46601509-2');
+      </script>
+    -->
     <title>{{ page.title }}</title>
 
     <!-- add meta tag for translated version -->
